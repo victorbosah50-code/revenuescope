@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RevenueScope™ by Victor G.</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>RevenueScope™</h1>
+  <h2>Enterprise Monetization Intelligence</h2>
+  <p>SaaS & Fintech · Built by Victor G.</p>
+</header>
+
+<main>
+  <section class="card">
+    <input id="company" placeholder="Company website (e.g. saascompany.com)">
+    <select id="industry">
+      <option>SaaS</option>
+      <option>Fintech</option>
+    </select>
+    <button onclick="runScan()">Run Free Public Scan</button>
+  </section>
+
+  <section id="report" class="report hidden"></section>
+</main>
+
+<footer>
+  <p>No servers · No tracking · Public data only</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
